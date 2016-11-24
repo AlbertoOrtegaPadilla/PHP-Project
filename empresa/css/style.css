@@ -1,0 +1,162 @@
+body{
+  background-color:#d9d9d9;
+}
+.white{
+  background-color: white;
+}
+.espacio{
+  width: 100px;
+}
+.caja{
+  border-radius: 10%;
+  background-color:#f2f2f2;
+  position: absolute;
+  left: 37%;
+  top: 200px;
+  box-shadow: 0 0 10px #6f8081;
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 344px;
+}
+.caja2{
+  border-radius: 10%;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 32%;
+  top: 100px;
+  box-shadow: 0 0 10px #6f8081;
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 498px;
+  padding-right: 20px;
+  height: 450px;
+}
+.caja3{
+  border-radius: 10%;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 32%;
+  top: 25px;
+  box-shadow: 0 0 10px #6f8081;
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 498px;
+  padding-right: 20px;
+  height: 597px;
+}
+h1{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 38px;
+    font-style: italic;
+    color: #333;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+}
+h2{
+    text-align: center;
+    margin-top: 150px;
+}
+h3{
+  text-align: center;
+}
+
+.boton{
+   position: absolute;
+   left: 45%;
+   top: 35%;
+}
+
+#disable{
+  background-color: #72ae7766;
+}
+
+hr{
+  border-width: 10px;
+  width: 50%;
+  border-radius: 50%;
+  border-color: #8c8c8c;
+}
+#btn{
+  margin-left: 60px;
+  border: 1px solid #6e6f75;
+}
+
+#btn2{
+margin-left: 30%;
+margin-top: 30px;
+}
+#btn2a{
+margin-left: 26%;
+margin-top: 30px;
+}
+#btn2b{
+margin-left: 34%;
+margin-top: 30px;
+}
+.btn-warning{
+  float:right;
+}
+
+label{
+  position: relative;
+  left: 11px;
+}
+
+#usuario{
+  position: relative;
+  left: 25px;
+}
+.acceso1{
+  background-color:#f2f2f2;
+box-shadow: 0 0 10px #6f8081;
+position: absolute;
+width: 300px;
+height: 200px;
+left: 13%;
+}
+.acceso2{
+background-color:#f2f2f2;
+box-shadow: 0 0 10px #6f8081;
+position: absolute;
+width: 300px;
+height: 200px;
+left: 65%;
+}
+.acceso3{
+  background-color:#f2f2f2;
+box-shadow: 0 0 10px #6f8081;
+position: absolute;
+width: 300px;
+height: 200px;
+left: 39%;
+top: 35%;
+}
+
+.acceso4{
+  background-color:#f2f2f2;
+box-shadow: 0 0 10px #6f8081;
+position: absolute;
+width: 300px;
+height: 200px;
+left: 24%;
+}
+.acceso5{
+  background-color:#f2f2f2;
+box-shadow: 0 0 10px #6f8081;
+position: absolute;
+width: 300px;
+height: 200px;
+left: 52%;
+}
+
+#inputUsuario{
+  width: 175px;
+  position: absolute;
+left: 60px;
+}
+
+#inputPassword{
+  width: 175px;
+  position: absolute;
+  left: 60px;
+}
