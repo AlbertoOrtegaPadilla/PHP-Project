@@ -17,7 +17,7 @@ se generará la salida, tal como nuestra aplicación requiera. -->
   </head>
   <body>
     <?php
-        header("Location: trabajoPHP/vista/login.php");
+        header("Location: http://localhost/TrabajoPHP/vista/login.php");
     ?>
   </body>
 </html>

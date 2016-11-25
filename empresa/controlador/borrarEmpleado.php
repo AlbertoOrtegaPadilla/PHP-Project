@@ -7,8 +7,8 @@ and open the template in the editor.
 
 <?php
     require_once '../modelo/empresa.php';
-    require_once '../modelo/empleados.php';
+    require_once '../Modelo/empleados.php';
     $empleadoAux = new Empleados($_POST['codigo']);
     $empleadoAux->delete();
-    header("Location: administrador.php");
+    header("Location: http://localhost/TrabajoPHP/controlador/administrador.php");
 

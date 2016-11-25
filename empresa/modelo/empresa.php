@@ -9,9 +9,9 @@ and open the template in the editor.
 
     abstract class Empresa {
       private static $server = 'localhost';
-      private static $db = 'u906243260_emp';
-      private static $user = 'u906243260_root';
-      private static $password = 'usuario';
+      private static $db = 'empresa';
+      private static $user = 'root';
+      private static $password = '';
 
       public static function connectDB() {
         try {

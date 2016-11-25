@@ -10,9 +10,9 @@
         
         private $conexion;
         private $server = "localhost";
-        private $user = "u906243260_root";
-        private $pass = "usuario";
-        private $baseDato = "u906243260_emp";
+        private $user = "root";
+        private $pass = "";
+        private $baseDato = "empresa";
         private $usuario;
         private $password;
         
@@ -37,10 +37,10 @@
             
             if ($registro = mysqli_fetch_array($consulta)) {
                 
-                header("Location: ../vista/menuListado.php");
+                header("Location: http://localhost/TrabajoPHP/vista/menuListado.php");
 
             }else{
-                header("Location: ../vista/failLogin.php");
+                header("Location: http://localhost/TrabajoPHP/vista/failLogin.php");
                 echo'<br><br><br><center>USUARIO o CONTRASEÑA incorrecto.</center>';
             }
         }

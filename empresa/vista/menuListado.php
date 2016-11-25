@@ -13,7 +13,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            require_once '../modelo/usuarios.php';
+            require_once '../Modelo/usuarios.php';
             $data['Empresa'] = Usuario::getUsuarios();
             foreach($data['Empresa'] as $usuarios)  {
                 if($_SESSION['user'] == "administrador" && $_SESSION['user'] == $usuarios->getUsuario()

@@ -19,16 +19,16 @@ and open the template in the editor.
       }
     if($_SESSION['submit'] == "DEPARTAMENTO"){
         include '../modelo/empresa.php';
-        include '../modelo/departamentos.php';
+        include '../Modelo/departamentos.php';
         $data['Empresa'] = Departamentos::getDepartamentos();
         include '../vista/listadoDepartamentos.php';
     }else if($_SESSION['submit'] == "EMPLEADO"){
         include '../modelo/empresa.php';
-        include '../modelo/empleados.php';
+        include '../Modelo/empleados.php';
         $data['Empresa'] = Empleados::getEmpleados();
         include '../vista/listadoEmpleado.php';
     }else if($_SESSION['user'] == "administrador" && $_SESSION['submit'] == "USUARIO"){
-        include '../modelo/usuarios.php';
+        include '../Modelo/usuarios.php';
         $data['Empresa'] = Usuario::getUsuarios();
         include '../vista/listadoUsuarios.php';
   }

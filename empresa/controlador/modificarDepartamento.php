@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <?php
   require_once '../modelo/empresa.php';
-  require_once '../modelo/departamentos.php';
+  require_once '../Modelo/departamentos.php';
   $departamentoAux = new Departamentos($_POST['codigo'], $_POST['nombre']);
   $departamentoAux->update();
-  header("Location: administrador.php");
+  header("Location: http://localhost/TrabajoPHP/controlador/administrador.php");
